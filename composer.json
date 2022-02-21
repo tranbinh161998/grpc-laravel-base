@@ -1,0 +1,21 @@
+{
+  "name": "sun/grpc-base-laravel",
+  "description": "Package help you implement grpc easier",
+  "type": "php",
+  "license": "aaa",
+  "authors": [
+    {
+      "name": "Binh",
+      "email": "tranbinh16101998@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "sun-asterisk\\grpc-laravel\\": "src/"
+    }
+  }
+}
