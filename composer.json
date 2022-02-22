@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "binhtv\\grpc-base-laravel\\": "src/"
+      "Binhtv": "src/"
     }
   }
 }
