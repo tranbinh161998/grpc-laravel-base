@@ -2,7 +2,7 @@
   "name": "binhtv/grpc-base-laravel",
   "description": "Package help you implement grpc easier",
   "type": "php",
-  "license": "aaa",
+  "license": "proprietary",
   "authors": [
     {
       "name": "Binh",
