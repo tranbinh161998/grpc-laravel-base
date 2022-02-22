@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "sun-asterisk\\grpc-laravel\\": "src/"
+      "binhtv\\grpc-base-laravel\\": "src/"
     }
   }
 }
