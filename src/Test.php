@@ -1,5 +1,5 @@
 <?php
-namespace Binhtv;
+namespace binhtv\GrpcLaravel;
 class SayHello
 {
     public static function world()
