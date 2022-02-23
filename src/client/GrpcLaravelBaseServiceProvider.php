@@ -11,7 +11,7 @@ class GrpcLaravelBaseServiceProvider extends \Illuminate\Support\ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/config/grpc.php' => config_path('grpc.php'),
+            __DIR__ . '/config/grpc.php' => config_path('grpc.php'),
         ], 'binhtv-grpc-config');
     }
 

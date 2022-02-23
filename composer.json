@@ -21,7 +21,8 @@
 
   "autoload": {
     "psr-4": {
-      "binhtv\\GrpcLaravel\\Client\\": "src/"
+      "binhtv\\GrpcLaravel\\Client\\": "src/client",
+      "binhtv\\GrpcLaravel\\Server\\": "src/server"
     }
   },
 
