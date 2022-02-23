@@ -3,7 +3,6 @@
 namespace binhtv\GrpcLaravel\Server;
 
 use binhtv\GrpcLaravel\Server\Contracts\ServiceInvoker;
-use binhtv\GrpcLaravel\Server\Contracts\ServiceWrapper;
 use ReflectionClass;
 use ReflectionException;
 use ReflectionMethod;
