@@ -1,6 +1,6 @@
 <?php
 
-namespace binhtv\GrpcLaravel\Serve;
+namespace binhtv\GrpcLaravel\Server;
 
 use binhtv\GrpcLaravel\Server\Contracts\ServiceInvoker;
 use App\Grpc\Contracts\ServiceWrapper;

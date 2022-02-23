@@ -1,6 +1,6 @@
 <?php
 
-namespace binhtv\GrpcLaravel\Serve;
+namespace binhtv\GrpcLaravel\Server;
 
 use Spiral\GRPC\StatusCode;
 use binhtv\GrpcLaravel\Server\Contracts\Validator;
