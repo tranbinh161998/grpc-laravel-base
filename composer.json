@@ -19,18 +19,18 @@
     "spiral/roadrunner-laravel": "^3.7"
   },
 
+  "autoload": {
+    "psr-4": {
+      "binhtv\\GrpcLaravel\\Client\\": "src/"
+    }
+  },
+
   "extra": {
     "laravel": {
       "dont-discover": [],
       "providers": [
         "binhtv\\GrpcLaravel\\Client\\GrpcLaravelBaseServiceProvider"
       ]
-    }
-  },
-
-  "autoload": {
-    "psr-4": {
-      "binhtv\\GrpcLaravel\\Client\\": "src/"
     }
   }
 }

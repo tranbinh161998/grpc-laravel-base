@@ -2,9 +2,7 @@
 
 namespace binhtv\GrpcLaravel\Client;
 
-use Illuminate\Support\ServiceProvider;
-
-class GrpcLaravelBaseServiceProvider extends ServiceProvide {
+class GrpcLaravelBaseServiceProvider extends \Illuminate\Support\ServiceProvider {
     /**
      * Bootstrap the application services.
      *
