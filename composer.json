@@ -23,7 +23,7 @@
     "laravel": {
       "dont-discover": [],
       "providers": [
-        "binhtv\\GrpcLaravel\\Client\\GrpcClientServiceProvider"
+        "binhtv\\GrpcLaravel\\Client\\GrpcLaravelBaseServiceProvider"
       ]
     }
   },
