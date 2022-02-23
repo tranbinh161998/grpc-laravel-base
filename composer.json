@@ -18,6 +18,16 @@
     "spiral/php-grpc": "^1.6",
     "spiral/roadrunner-laravel": "^3.7"
   },
+
+  "extra": {
+    "laravel": {
+      "dont-discover": [],
+      "providers": [
+        "binhtv\\GrpcLaravel\\Client\\GrpcClientServiceProvider"
+      ]
+    }
+  },
+
   "autoload": {
     "psr-4": {
       "binhtv\\GrpcLaravel\\Client\\": "src/"
