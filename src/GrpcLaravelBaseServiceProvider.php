@@ -1,6 +1,6 @@
 <?php
 
-namespace CANHNV\SimpleAdmin;
+namespace binhtv\GrpcLaravel\Client;
 
 use Illuminate\Support\ServiceProvider;
 
