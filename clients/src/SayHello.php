@@ -1,5 +1,5 @@
 <?php
-namespace binhtv\GrpcLaravel;
+namespace binhtv\GrpcLaravel\Contracts;
 class SayHello
 {
     public static function world()

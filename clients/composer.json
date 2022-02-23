@@ -11,11 +11,17 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": "^7.4"
+    "php": "^7.4",
+    "laravel/framework":"^v6.20.1",
+    "google/common-protos":"^2.0.0",
+    "google/protobuf": "^3.19",
+    "grpc/grpc": "^1.42",
+    "spiral/php-grpc": "^1.6",
+    "spiral/roadrunner-laravel": "^3.7"
   },
   "autoload": {
     "psr-4": {
-      "binhtv\\GrpcLaravel\\": "src/"
+      "binhtv\\GrpcLaravel\\Client\\": "src/"
     }
   }
 }
