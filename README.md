@@ -39,7 +39,7 @@ $clientGrpc = (new GrpcFactory)->make(ExampleServiceClient::class);
 ### Serve
 - Start serve:
 ```shell
-./vendor/binhtv/grpc-base-laravel/src/serve/rr-grpc serve -v -d
+./vendor/binhtv/grpc-base-laravel/rr-grpc serve -v -d
 ```
 
 - Example worker file:
