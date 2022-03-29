@@ -34,4 +34,37 @@ trait HandleDataRequest
 
         return $requestGrpc;
     }
+
+    /**
+     * @param array $data
+     * @return array
+     */
+    public function removeLinkPagination(array $data)
+    {
+        if (key_exists('links', $data)) {
+            unset($data['links']);
+        }
+
+        if (key_exists('meta', $data)) {
+            unset($data['meta']['links']);
+            unset($data['meta']['path']);
+        }
+
+        return $data;
+    }
+
+    /**
+     * @param Message $requestGrpc
+     * @return Request
+     */
+    public function prepareDataRequestFromGrpc(Message $requestGrpc)
+    {
+        $requestLaravel = new Request();
+
+        $requestLaravel->merge(json_decode($requestGrpc->serializeToJsonString(), true));
+
+        app('request')['page'] = $requestLaravel->page ?? 1;
+
+        return $requestLaravel;
+    }
 }
