@@ -125,7 +125,7 @@ abstract class BaseGrpcApi
      * @return mixed
      * @throws Exception
      */
-    protected function __call($methodName, $params)
+    public function __call($methodName, $params)
     {
         try {
             $this->createInstanceOfRequest($methodName);
